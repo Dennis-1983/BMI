@@ -1,7 +1,7 @@
-function berechnen() {
+function ergebnis() {
   let bmi;
   let weight = document.bmiform.gewicht.value;
-  let height = document.bmiform.groesse.value;
+  let height = document.bmiform.grösse.value;
   
   bmi = Math.round(weight / Math.pow(height / 100, 2));
   output = "Ihr BMI beträgt " + bmi + ".\n";
